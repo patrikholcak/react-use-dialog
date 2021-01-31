@@ -1,0 +1,5 @@
+example/.parcel
+node_modules
+.cache
+dist
+public

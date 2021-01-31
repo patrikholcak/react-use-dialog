@@ -1,0 +1,44 @@
+{
+  "name": "react-use-dialog",
+  "version": "1.0.0",
+  "description": "Headless React dialog component",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "author": "Patrik Holcak <patrik@holcak.com> (https://patrik.dev)",
+  "homepage": "https://github.com/patrikholcak/react-use-dialog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrikholcak/react-use-dialog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patrikholcak/react-use-dialog/issues"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@types/jest": "^26.0.20",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-test-renderer": "^17.0.0",
+    "jest": "^26.6.3",
+    "parcel": "^1.12.4",
+    "react-test-renderer": "^17.0.1",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit --pretty",
+    "test": "jest --preset ts-jest",
+    "build-example": "parcel build example/index.html --out-dir public",
+    "example": "parcel example/index.html --port 1234"
+  }
+}
