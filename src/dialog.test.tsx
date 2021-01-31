@@ -6,6 +6,7 @@ import { DialogContext, Dialog, DialogStack } from ".";
 const DIALOG_ID = "test-dialog";
 const contextValue = {
   dialogState: {},
+  portalTarget: document.body,
   open: jest.fn(),
   close: jest.fn(),
   register: jest.fn(),
@@ -13,6 +14,7 @@ const contextValue = {
   closeAll: jest.fn(),
   closeParent: jest.fn(),
   closeCurrent: jest.fn(),
+  closeAtIndex: jest.fn(),
 };
 
 describe("Dialog", () => {

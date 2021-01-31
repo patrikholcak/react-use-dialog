@@ -1,5 +1,8 @@
+.cache
 .github
+.releaserc
 example
 release.config.js
 tsconfig.json
 public
+*.test.*

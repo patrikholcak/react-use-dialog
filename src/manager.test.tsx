@@ -35,6 +35,7 @@ describe("DialogStack", () => {
     function Content() {
       const dialogs = useDialogs();
 
+      // @ts-expect-error
       dialogState = dialogs.dialogState;
 
       return (
